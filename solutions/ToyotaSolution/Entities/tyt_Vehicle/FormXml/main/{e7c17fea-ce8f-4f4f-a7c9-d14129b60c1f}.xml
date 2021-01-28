@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e7c17fea-ce8f-4f4f-a7c9-d14129b60c1f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c3c4172a-b3d5-4c4e-a4e6-0f699e289f39}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d3f652ff-38c8-4742-936e-5a25afab7d0a}" name="{d3f652ff-38c8-4742-936e-5a25afab7d0a}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{547065de-04a0-4a76-ac47-437c5c6ecb6f}" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_category" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="tyt_category" disabled="false" />
+                      </cell>
+                      <cell id="{612a8a75-9c6b-4a3f-9a6e-95f9c67d932c}" locklevel="0">
+                        <labels>
+                          <label description="Primary Photo" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_primaryphoto" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tyt_primaryphoto" disabled="false" uniqueid="{1e7525db-cc22-d27b-e0bd-2393a5313794}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c14daf26-254c-47ca-be7f-2b9ff5883e79}">
+                        <labels>
+                          <label description="Model Name" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_modelname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tyt_modelname" />
+                      </cell>
+                      <cell id="{9a8459e4-b511-4787-8f26-82ad930dca83}" locklevel="0">
+                        <labels>
+                          <label description="Photo Image" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_photoimage" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tyt_photoimage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5f609f9d-a8d5-43d1-8208-2ad26ae70651}" locklevel="0">
+                        <labels>
+                          <label description="Starting Price" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_startingprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tyt_startingprice" disabled="false" />
+                      </cell>
+                      <cell id="{a1104c0c-6a96-9eea-0307-e84355e050bb}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2e9fee7b-25c5-4e42-8f06-1ffa904a9be1}" locklevel="0">
+                        <labels>
+                          <label description="Miles per gallon" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_milespergallon" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tyt_milespergallon" disabled="false" />
+                      </cell>
+                      <cell id="{0997b221-a35b-d541-c1cd-dc3b4d814124}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee033b8f-fdaf-4a1f-82f2-6a6eaf375169}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{62911651-d4b8-daeb-89c2-2d695e760b2e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{039f8cd8-b192-4f1a-853e-64f9cf71e0cc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5e4e18eb-32af-487d-b42e-9f352f485092}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{26595c08-8f64-49e0-adf8-9a51125a58b3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7aef3800-a75e-4ca4-922c-b5508aa1ad6e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a3a1585f-8d65-47ae-addf-c59412b61fb3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c3c654d8-ad85-440e-9e06-d99ec44844d1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e5e9ac02-9d50-4146-9e5a-0fa09341f285}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fd13e0ed-4eb1-4e3b-a0c8-e738fd10b06b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

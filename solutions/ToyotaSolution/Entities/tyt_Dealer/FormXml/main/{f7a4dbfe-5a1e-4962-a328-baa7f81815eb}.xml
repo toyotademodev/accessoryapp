@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f7a4dbfe-5a1e-4962-a328-baa7f81815eb}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{2103c7d7-ec34-40f8-9a7d-69388e68c06e}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{34649933-5962-435f-8dd7-31d5648718c2}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{380c9f39-088f-4ca4-a763-f370fa7e8d71}" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_region" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="tyt_region" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{490ccfc2-015b-4f44-81d5-771e4f1275e9}" locklevel="0">
+                        <labels>
+                          <label description="Districts" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_districts" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="tyt_districts" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96a84fc8-8de2-40d7-9a33-732e807d02ff}">
+                        <labels>
+                          <label description="Dealer Number" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_dealernumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tyt_dealernumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{046c38f6-6782-44db-8937-b853328463bc}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{22601b19-1348-4c77-8c81-270a353195d4}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9df82c98-ab75-44c4-a7cb-930a355a4088}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4d21f0c1-b8ee-4b29-b3fa-3c95f11885de}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a321c5e6-554c-424e-a068-acae65929a43}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0c5eb011-6ee2-4c8c-8df6-dad6ddd06d45}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{27c211ca-0dca-470f-938f-765d85e1dd72}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ba729513-7713-4e11-81aa-c59ed65774da}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{db5e4aee-22a9-40cd-bf8f-487610dba789}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

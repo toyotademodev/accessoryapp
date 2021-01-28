@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c2e69b96-be09-402d-96a9-967b748986c9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{3619ff3b-cc44-4779-96d4-b437db83dcc6}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f8cf7dc5-9a00-40f7-aaab-108559deaba7}" name="{f8cf7dc5-9a00-40f7-aaab-108559deaba7}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c0fcf5f7-fce4-454e-ac09-413290073838}" locklevel="0">
+                        <labels>
+                          <label description="Accessory Type" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_accessorytype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="tyt_accessorytype" disabled="false" />
+                      </cell>
+                      <cell id="{ffcafde8-760a-4893-9afd-77b482099fe6}" locklevel="0">
+                        <labels>
+                          <label description="Primary Photo" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_primaryphoto" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tyt_primaryphoto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d31e89e-1523-48ca-a757-2fa191dd7397}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tyt_name" />
+                      </cell>
+                      <cell id="{e0248967-d240-7482-5d14-337ac6666971}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd50dcd1-57d0-443f-8ac2-909a94394a3e}" locklevel="0" auto="true">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="tyt_description" disabled="false" />
+                      </cell>
+                      <cell id="{6b60760c-bacc-717e-59b7-54dbe9359d82}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cceacdf3-2b55-4b47-a307-585c93fac79b}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{27936e57-291b-433c-8100-37928d445e3c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2b09942c-e9f8-4d4c-9bbb-0959c2f300c6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6a708693-8e7b-46f7-9b21-ecd2f10ca4cc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{489166f7-5bb1-478c-b64e-ffdb47022bc0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{50664356-e095-44d9-bef2-ffe1740dd98d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{678fae7d-fe6e-4197-b656-ad72b36917ac}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{50ce9ec2-43cb-4cf6-8c0a-6f3e3789afbe}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{220ac86d-452c-42ee-a1b4-fae326254c76}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9cadec73-b9a3-40f6-9ca8-c03cd2986f79}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

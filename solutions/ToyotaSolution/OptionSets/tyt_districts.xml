@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tyt_districts" localizedName="Districts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Districts" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="216470000">
+      <labels>
+        <label description="1" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470001">
+      <labels>
+        <label description="2" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470002">
+      <labels>
+        <label description="3" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470003">
+      <labels>
+        <label description="4" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470004">
+      <labels>
+        <label description="5" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470005">
+      <labels>
+        <label description="6" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470006">
+      <labels>
+        <label description="7" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470007">
+      <labels>
+        <label description="8" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470008">
+      <labels>
+        <label description="9" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470009">
+      <labels>
+        <label description="10" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470010">
+      <labels>
+        <label description="11" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470011">
+      <labels>
+        <label description="12" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470012">
+      <labels>
+        <label description="13" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
