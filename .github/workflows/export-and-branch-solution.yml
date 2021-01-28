@@ -30,20 +30,20 @@ jobs:
         user-name: demodev@pmgevents.onmicrosoft.com
         password-secret: ${{ secrets.password }}
         solution-name: ToyotaVehicleQualitySolution
-        solution-output-file: out/exported/ToyotaALM.zip
+        solution-output-file: out/exported/ToyotaSolution.zip
 
     - name: unpack-solution action
       uses: microsoft/powerplatform-actions/unpack-solution@v0
       with:
-        solution-file: out/exported/ToyotaALM.zip
-        solution-folder: out/solutions/ToyotaALM
+        solution-file: out/exported/ToyotaSolution.zip
+        solution-folder: out/solutions/ToyotaSolution
         solution-type: 'Unmanaged'
         overwrite-files: true
 
     - name: branch-solution, prepare it for a PullRequest
       uses: microsoft/powerplatform-actions/branch-solution@v0
       with:
-        solution-folder: out/solutions/ToyotaALM
-        solution-target-folder: solutions/ToyotaALM
+        solution-folder: out/solutions/ToyotaSolution
+        solution-target-folder: solutions/ToyotaSolution
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         allow-empty-commit: true
