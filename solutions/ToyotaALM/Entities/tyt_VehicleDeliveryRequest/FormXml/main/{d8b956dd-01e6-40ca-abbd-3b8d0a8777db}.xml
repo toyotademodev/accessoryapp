@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d8b956dd-01e6-40ca-abbd-3b8d0a8777db}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{4087c785-f19f-4763-bd55-72c5f96173a4}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e1e25df0-dc32-4c8f-a207-da8df73325c3}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{58a97baf-a1b3-4632-9802-7dc27d39911c}" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_region" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tyt_region" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{97b89299-d6b1-4956-a536-7a74db2d5865}" locklevel="0">
+                        <labels>
+                          <label description="Dealer Number" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_dealernumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tyt_dealernumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aee48162-cc11-4611-8ef5-f585edcf412a}" locklevel="0">
+                        <labels>
+                          <label description="Request Type" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_requesttype" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tyt_requesttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6dbf5c5f-ecb0-4b79-8208-386ccac969a9}">
+                        <labels>
+                          <label description="Request Name" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_requestname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tyt_requestname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{90a506c1-2021-4f74-87fb-5660fc94d5c9}" locklevel="0">
+                        <labels>
+                          <label description="Vehicle" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_vehicle" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tyt_vehicle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e8a623c-3865-42d1-a69d-d0652624b803}" locklevel="0">
+                        <labels>
+                          <label description="Delivery Request Number" languagecode="1033" />
+                        </labels>
+                        <control id="tyt_deliveryrequestnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tyt_deliveryrequestnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93098938-6239-44d2-affc-eb35a8de4681}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{888d0c25-a922-4125-a6aa-d7425ed86215}" rowspan="1" colspan="1" showlabel="true">
+                        <labels>
+                          <label description="Accessories" languagecode="1033" />
+                        </labels>
+                        <control id="subgridAccessories" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>tyt_vehicledeliveryrequestaccessory</TargetEntityType>
+                            <ViewId>{C6F2B84B-8DC9-479A-A0D0-76E6B97D1285}</ViewId>
+                            <ViewIds>{C6F2B84B-8DC9-479A-A0D0-76E6B97D1285}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>tyt_VehicleDeliveryRequestAccessory_Vehic</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{005b527a-7b27-45c7-a1f9-4899a8eb5511}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9b0ebd65-5e09-47f1-a5ec-57dd9db52f06}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{33b6eb3d-0daa-4981-b45c-aa2901c73b0a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8dd39f16-9452-43bd-acac-fe25dcbf8d23}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d23cf752-8ee3-41d2-8bdf-413f59a23d2c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{10cc171d-de39-4d93-b15f-574427476d8b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7b695f2f-5890-4a7c-a0ef-65ac2007a9d6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7f84c0cb-501a-40bc-aa0d-afc915a92259}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

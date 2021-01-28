@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f9a90ed3-a449-4ba0-86c1-218a95ef3aa6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tyt_requestname" select="1" icon="1" preview="1">
+        <row name="result" id="tyt_vehicledeliveryrequestid">
+          <cell name="tyt_requestname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tyt_vehicledeliveryrequest">
+          <attribute name="tyt_vehicledeliveryrequestid" />
+          <attribute name="tyt_requestname" />
+          <attribute name="createdon" />
+          <order attribute="tyt_requestname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Vehicle Delivery Requests" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

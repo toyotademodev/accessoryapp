@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityImageConfigs>
+    <EntityImageConfig>
+      <parententitylogicalname>tyt_accessory</parententitylogicalname>
+      <primaryimageattribute>tyt_primaryphoto</primaryimageattribute>
+    </EntityImageConfig>
+    <EntityImageConfig>
+      <parententitylogicalname>tyt_vehicle</parententitylogicalname>
+      <primaryimageattribute>tyt_primaryphoto</primaryimageattribute>
+    </EntityImageConfig>
+    <EntityImageConfig>
+      <parententitylogicalname>tyt_vehicledeliveryrequestaccessory</parententitylogicalname>
+      <primaryimageattribute>tyt_image</primaryimageattribute>
+    </EntityImageConfig>
+  </EntityImageConfigs>
+  <AttributeImageConfigs>
+    <AttributeImageConfig>
+      <attributelogicalname>tyt_primaryphoto</attributelogicalname>
+      <parententitylogicalname>tyt_accessory</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>tyt_primaryphoto</attributelogicalname>
+      <parententitylogicalname>tyt_vehicle</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>tyt_photoimage</attributelogicalname>
+      <parententitylogicalname>tyt_vehicle</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>tyt_image</attributelogicalname>
+      <parententitylogicalname>tyt_vehicledeliveryrequestaccessory</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+  </AttributeImageConfigs>
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps />
+  <Connectors />
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

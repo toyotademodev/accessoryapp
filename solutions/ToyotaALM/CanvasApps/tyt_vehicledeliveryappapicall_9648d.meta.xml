@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>tyt_vehicledeliveryappapicall_9648d</Name>
+  <AppVersion>2021-01-13T06:02:05Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.20122.13.0</CreatedByClientVersion>
+  <MinClientVersion>0.0.0.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"20210113T054016Z-3.20122.13.0","deviceCapabilities":"webcam","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.20122.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(208, 52, 56, 1)</BackgroundColor>
+  <DisplayName>Vehicle Delivery App - API Call</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage>Saved by Test Studio</CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{"20030feb-9bfd-4447-8d2b-dcdfc80a35b9":{"id":"/providers/microsoft.powerapps/apis/shared_new-5ftoyotalogisticssystem-5fc4ad79154419e994","displayName":"toyotalogisticssystem","iconUri":"https://prodapiicons.cdn.powerappscdn.net/20200917t000000z77843b63f7304005906264c3048cb989/customconnectoricon.png","dataSources":["ToyotaLogisticsSystem"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","customApiLogicalName":"new_5Ftoyotalogisticssystem","isCustomApiSolutionAware":true},"a7297d0f-0f7d-48ad-9a0b-dd1a445a5ea5":{"id":"/providers/microsoft.powerapps/apis/shared_cognitiveservicescustomvision","displayName":"Custom Vision","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1420/1.0.1420.2245/cognitiveservicescustomvision/icon.png","dataSources":["CustomVision"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"sharedConnectionId":"ac9594c7-1b1e-4a0b-b5c2-7be93a70f75a","bypassConsent":false,"dataSets":{},"apiTier":"Standard","isCustomApiSolutionAware":false}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Dealers":{"entitySetName":"tyt_dealers","logicalName":"tyt_dealer"},"Vehicles":{"entitySetName":"tyt_vehicles","logicalName":"tyt_vehicle"},"Accessories":{"entitySetName":"tyt_accessories","logicalName":"tyt_accessory"},"Vehicle Delivery Requests":{"entitySetName":"tyt_vehicledeliveryrequests","logicalName":"tyt_vehicledeliveryrequest"},"Vehicle Delivery Request Accessories":{"entitySetName":"tyt_vehicledeliveryrequestaccessories","logicalName":"tyt_vehicledeliveryrequestaccessory"}}}}</DatabaseReferences>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"new_5Ftoyotalogisticssystem","componenttype":372,"componenttypeplatformname":"connector"},{"logicalname":"tyt_dealer","componenttype":1},{"logicalname":"tyt_vehicle","componenttype":1},{"logicalname":"tyt_accessory","componenttype":1},{"logicalname":"tyt_vehicledeliveryrequest","componenttype":1},{"logicalname":"tyt_vehicledeliveryrequestaccessory","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/tyt_vehicledeliveryappapicall_9648d_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/tyt_vehicledeliveryappapicall_9648d_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
