@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tyt_region" localizedName="Region" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Region" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="216470000">
+      <labels>
+        <label description="BOS" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470001">
+      <labels>
+        <label description="CAT" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470002">
+      <labels>
+        <label description="CEN" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470003">
+      <labels>
+        <label description="CHI" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470004">
+      <labels>
+        <label description="CIN" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470005">
+      <labels>
+        <label description="DEN" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470006">
+      <labels>
+        <label description="EAS" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470007">
+      <labels>
+        <label description="GST" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470008">
+      <labels>
+        <label description="KCY" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470009">
+      <labels>
+        <label description="LOS" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470010">
+      <labels>
+        <label description="NYR" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470011">
+      <labels>
+        <label description="PTL" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470012">
+      <labels>
+        <label description="SET" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470013">
+      <labels>
+        <label description="SFR" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470014">
+      <labels>
+        <label description="SOU" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470015">
+      <labels>
+        <label description="TDP" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="216470016">
+      <labels>
+        <label description="WES" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

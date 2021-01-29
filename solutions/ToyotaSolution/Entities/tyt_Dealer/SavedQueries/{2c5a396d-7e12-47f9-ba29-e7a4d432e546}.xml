@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2c5a396d-7e12-47f9-ba29-e7a4d432e546}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tyt_dealernumber" select="1" icon="1" preview="1">
+        <row name="result" id="tyt_dealerid">
+          <cell name="tyt_region" width="100" />
+          <cell name="tyt_districts" width="100" />
+          <cell name="tyt_dealernumber" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tyt_dealer">
+          <attribute name="tyt_dealerid" />
+          <attribute name="tyt_dealernumber" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tyt_region" />
+          <attribute name="tyt_districts" />
+          <order attribute="tyt_region" descending="false" />
+          <order attribute="tyt_districts" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Dealers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
