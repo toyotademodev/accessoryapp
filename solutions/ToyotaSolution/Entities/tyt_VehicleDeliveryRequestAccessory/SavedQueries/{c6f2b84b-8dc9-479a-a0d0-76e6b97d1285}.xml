@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c6f2b84b-8dc9-479a-a0d0-76e6b97d1285}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tyt_requestaccessoryname" select="1" icon="1" preview="1">
+        <row name="result" id="tyt_vehicledeliveryrequestaccessoryid">
+          <cell name="tyt_requestaccessoryname" width="208" />
+          <cell name="tyt_vehicledeliveryrequest" width="278" />
+          <cell name="tyt_accessory" width="200" />
+          <cell name="tyt_isinstalled" width="100" />
+          <cell name="tyt_note" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tyt_vehicledeliveryrequestaccessory">
+          <attribute name="tyt_vehicledeliveryrequestaccessoryid" />
+          <attribute name="tyt_requestaccessoryname" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tyt_accessory" />
+          <attribute name="tyt_isinstalled" />
+          <attribute name="tyt_vehicledeliveryrequest" />
+          <attribute name="tyt_note" />
+          <order attribute="createdon" descending="true" />
+          <order attribute="tyt_vehicledeliveryrequest" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Vehicle Delivery Request Accessories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
