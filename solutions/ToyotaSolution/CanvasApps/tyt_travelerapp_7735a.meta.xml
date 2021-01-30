@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>tyt_travelerapp_7735a</Name>
-  <AppVersion>2020-09-09T01:44:01Z</AppVersion>
+  <AppVersion>2021-01-29T22:59:25Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.20083.24.0</CreatedByClientVersion>
   <MinClientVersion>3.20083.24.0</MinClientVersion>
@@ -14,9 +14,11 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
-  <ConnectionReferences>{"b67034b6-d1d3-4655-9ed5-2e71e281cf08":{"id":"/providers/microsoft.powerapps/apis/shared_cognitiveservicescustomvision","displayName":"Custom Vision","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1373/1.0.1373.2081/cognitiveservicescustomvision/icon.png","dataSources":["CustomVision"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"sharedConnectionId":"97ceba12-683d-4f9b-93f1-b837aabe80c2","bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <ConnectionReferences>{"b67034b6-d1d3-4655-9ed5-2e71e281cf08":{"id":"/providers/microsoft.powerapps/apis/shared_cognitiveservicescustomvision","displayName":"Custom Vision","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1420/1.0.1420.2245/cognitiveservicescustomvision/icon.png","dataSources":["CustomVision"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"sharedConnectionId":"6b8b2812-e164-4fa7-8a5e-1c520458bcf1","bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Dealers":{"entitySetName":"tyt_dealers","logicalName":"tyt_dealer"},"Vehicles":{"entitySetName":"tyt_vehicles","logicalName":"tyt_vehicle"},"Accessories":{"entitySetName":"tyt_accessories","logicalName":"tyt_accessory"},"Vehicle Delivery Requests":{"entitySetName":"tyt_vehicledeliveryrequests","logicalName":"tyt_vehicledeliveryrequest"},"Vehicle Delivery Request Accessories":{"entitySetName":"tyt_vehicledeliveryrequestaccessories","logicalName":"tyt_vehicledeliveryrequestaccessory"}}}}</DatabaseReferences>
-  <CanConsumeAppPass>0</CanConsumeAppPass>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
   <BypassConsent>0</BypassConsent>
   <AdminControlBypassConsent>0</AdminControlBypassConsent>
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>

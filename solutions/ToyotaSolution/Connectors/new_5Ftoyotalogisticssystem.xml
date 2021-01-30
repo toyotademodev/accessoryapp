@@ -7,6 +7,7 @@
   <name>new_5Ftoyotalogisticssystem</name>
   <connectortype>1</connectortype>
   <openapidefinition>/Connector/new_5Ftoyotalogisticssystem_openapidefinition.json</openapidefinition>
+  <connectionparameters>/Connector/new_5Ftoyotalogisticssystem_connectionparameters.json</connectionparameters>
   <policytemplateinstances>/Connector/new_5Ftoyotalogisticssystem_policytemplateinstances.json</policytemplateinstances>
   <iconblob>/Connector/new_5Ftoyotalogisticssystem_iconblob.Png</iconblob>
 </Connector>

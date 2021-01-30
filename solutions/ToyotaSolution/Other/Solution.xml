@@ -6,7 +6,7 @@
       <LocalizedName description="Toyota Vehicle Quality Solution" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.12</Version>
+    <Version>1.0.0.13</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>toyota</UniqueName>
@@ -95,6 +95,7 @@
       <RootComponent type="60" id="{e7c17fea-ce8f-4f4f-a7c9-d14129b60c1f}" behavior="0" />
       <RootComponent type="300" schemaName="tyt_travelerapp_7735a" behavior="0" />
       <RootComponent type="300" schemaName="tyt_vehicledeliveryappapicall_9648d" behavior="0" />
+      <RootComponent type="300" schemaName="tyt_vehicledeliveryappapipcf_205ac" behavior="0" />
       <RootComponent type="300" schemaName="tyt_vehicledeliveryapp_689b9" behavior="0" />
       <RootComponent type="300" schemaName="tyt_vehicledeliveryqualityappapiresponsive_eeb6e" behavior="0" />
       <RootComponent type="372" id="{16a51a64-7c48-434f-8165-e01dd88867ca}" schemaName="new_5Ftoyotalogisticssystem" behavior="0" />
