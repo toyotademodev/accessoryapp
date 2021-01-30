@@ -30,7 +30,7 @@ jobs:
       uses: microsoft/powerplatform-actions/import-solution@v0
       with:
         environment-url: https://org8ea26093.crm.dynamics.com
-        user-name: demodev@pmgevents.onmicrosoft.com
+        user-name: demoadmin@pmgevents.onmicrosoft.com
         password-secret: ${{ secrets.password }}
         solution-file: out/solutions/ToyotaSolution.zip
         force-overwrite: true
@@ -40,7 +40,7 @@ jobs:
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
         environment-url: https://org8ea26093.crm.dynamics.com
-        user-name: demodev@pmgevents.onmicrosoft.com
+        user-name: demoadmin@pmgevents.onmicrosoft.com
         password-secret: ${{ secrets.password }}
         solution-name: ToyotaVehicleQualitySolution
         managed: true
@@ -75,7 +75,7 @@ jobs:
       uses: microsoft/powerplatform-actions/import-solution@v0
       with:
         environment-url: https://org8ea26093.crm.dynamics.com
-        user-name: demodev@pmgevets.onmicrosoft.com
+        user-name: demoadmin@pmgevets.onmicrosoft.com
         password-secret: ${{ secrets.password }}
         solution-file: out/release/toyotaSolution.zip
         force-overwrite: true
